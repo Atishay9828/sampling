@@ -16,7 +16,10 @@ from src.evaluation import run_experiments, save_results
 
 # Default paths (assumes workspace layout used in this project)
 PROJECT_DIR = Path(__file__).resolve().parent
-DATA_PATH = PROJECT_DIR.parent / "Creditcard_data.csv"
+# Prefer dataset in repo under data/raw; fall back to old location for backward compatibility.
+DATA_PATH = PROJECT_DIR / "data" / "raw" / "Creditcard_data.csv"
+if not DATA_PATH.exists():
+    DATA_PATH = PROJECT_DIR / "Creditcard_data.csv"
 RESULTS_PATH = PROJECT_DIR / "results" / "final_results.csv"
 
 
