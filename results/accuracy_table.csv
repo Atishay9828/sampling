@@ -1,0 +1,6 @@
+Model,Sampling1_NoSampling,Sampling2_RandomUnder,Sampling3_RandomOver,Sampling4_SMOTE,Sampling5_NearMiss
+M1_LogisticRegression,98.71,60.00,90.97,92.26,29.03
+M2_SVM,94.84,52.26,95.48,96.13,30.97
+M3_RandomForest,98.71,63.87,99.35,99.35,38.71
+M4_GradientBoosting,98.71,35.48,99.35,99.35,14.19
+M5,, , , , 
