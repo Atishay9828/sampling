@@ -52,7 +52,7 @@ Models Evaluated
 * Random Forest
 * Gradient Boosting
 
-* Sampling Techniques Applied
+Sampling Techniques Applied
 
 * No Sampling (Baseline)
 * Random Under Sampling
@@ -60,7 +60,7 @@ Models Evaluated
 * SMOTE (Synthetic Minority Oversampling Technique)
 * NearMiss
 
-* Execution Environment
+Execution Environment
 
 * Python
 * Scikit-learn
